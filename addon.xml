@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.kodi.plugins" name="RogerThiede Add-on Repository" version="0.1" provider-name="RogerThiede">
+	<extension point="repository.kodi.plugins" name="RogerThiede Add-on Repository">
+        <info>https://raw.githubusercontent.com/RogerThiede/repository.kodi.plugins/master/addons.xml</info>
+        <datadir zip="false">https://github.com/RogerThiede/repository.kodi.plugins/raw/master/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Install Add-ons from RogerThiede's Repository</summary>
+		<description>Add-ons for XBMC</description>
+		<disclaimer>by RogerThiede</disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
